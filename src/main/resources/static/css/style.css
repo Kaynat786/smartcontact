@@ -1,0 +1,154 @@
+body{
+	
+	background: #e2e2e2!important
+}
+
+.left {
+  float: left !important;
+}
+
+.bg-primary
+{
+	background: #009688 !important;
+}
+.banner
+{
+	width:100%;
+	height:93vh;
+	background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url("../img/homeb.jpg");
+	color: white;
+}
+
+.my-card
+{
+	padding: 20px;
+	background: #ffffff;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: black;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+/*side bar style */
+
+@media only screen and (max-width:600px)
+{
+
+.sidebar
+{
+	display:none;
+	width: 80% !important;
+	background: white;
+	height: 100vh;
+	position: fixed;
+	padding-top: 20px;
+	
+}
+.content
+{
+	margin-left: 0% !important;
+}
+}
+
+.sidebar
+{
+	
+	width: 18%;
+	background: white;
+	height: 100%;
+	position: fixed;
+	padding-top: 45px;
+	
+}
+
+.content
+{
+	margin-left: 20%;
+}
+
+.sidebar a
+{
+	display: block;
+	width: 100%;
+	padding: 10px 40px;
+	text-decoration: none;
+	color: gray;
+}
+
+.sidebar a:hover
+{
+	background: #e2e2e2;
+}
+
+.sidebar .divider
+{
+	height: 1px;
+	width: 100%;
+	background: #e2e2e2;
+	margin-top: 10px;
+}
+
+.sidebar .crossBtn
+{
+	position: absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.my_profile_pic
+{
+	width: 35px;
+	height: 35px;
+	object-fit: cover;
+	border-radius: 50%;
+	
+}
+
+.permission
+{
+	color:red;
+	background-color: black;
+}
+
+/* search css */
+
+.search-container
+{
+	position: relative;
+}
+
+.search-result
+{
+	position: absolute;
+	background: white;
+	width:100%;
+	padding:10px;
+	border:  1px solid gray
+}
+
+.active
+{
+	background: #009688 !important;
+	color: white !important;
+}
+
+#logins .container #login-row1 #login-column1 #login-box1 {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: white;
+}
+
